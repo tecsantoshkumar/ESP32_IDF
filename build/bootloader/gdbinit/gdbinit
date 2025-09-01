@@ -1,0 +1,2 @@
+source /home/ubuntu12345/esp-idf/new-esp32/my project/http-server/build/bootloader/gdbinit/symbols
+source /home/ubuntu12345/esp-idf/new-esp32/my project/http-server/build/bootloader/gdbinit/connect

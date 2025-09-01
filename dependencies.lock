@@ -1,0 +1,24 @@
+dependencies:
+  espressif/qrcode:
+    component_hash: 3b493771bc5d6ad30cbf87c25bf784aada8a08c941504355b55d6b75518ed7bc
+    dependencies: []
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 0.1.0~2
+  idf:
+    source:
+      type: idf
+    version: 5.5.0
+  protocol_examples_common:
+    dependencies: []
+    source:
+      path: /home/ubuntu12345/esp-idf/new-esp32/esp-idf/examples/common_components/protocol_examples_common
+      type: local
+    version: '*'
+direct_dependencies:
+- espressif/qrcode
+- protocol_examples_common
+manifest_hash: 2d361c5e61683d4002738fef2dd3ecaad7ef014c9414dbe32a5fca69854679a6
+target: esp32
+version: 2.0.0

@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "ble_handeller.h": "c",
+        "random": "cpp",
+        "mqtt_handeller.h": "c",
+        "http_handeller.h": "c"
+    }
+}

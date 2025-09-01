@@ -1,0 +1,142 @@
+# ninja log v5
+13	228	1756068799520172969	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/gpio_periph.c.obj	dc2956ee45e9a12a
+858	1606	1756068800902163990	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp_image_format.c.obj	bdefa61bcfe3e9f2
+2075	2274	1756068801572159638	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_gpio.c.obj	780d22a0baa5adfb
+27	251	1756068799543172819	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/ledc_periph.c.obj	fabb7b1bfef902ed
+88	224	1756068799517172988	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/i2c_periph.c.obj	127a1d184bb3d1e1
+2	35	1756068799331174197	project_elf_src_esp32.c	73c995af89d61e1d
+2311	2525	1756068801819158033	esp-idf/main/CMakeFiles/__idf_main.dir/bootloader_start.c.obj	372bf4b7a0cbc31a
+971	1215	1756068800511166530	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_clock_loader.c.obj	2d7410208fe5f156
+2062	2169	1756068801467160320	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_efuse.c.obj	ca00e9edb3ea319c
+229	355	1756068799654172098	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/wdt_periph.c.obj	d224624ea6f6d0cc
+1234	2267	1756068801552159768	esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_utility.c.obj	e42a8f45115f3966
+26	149	1756068799436173515	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/spi_periph.c.obj	1309b1fa3c0a9e2d
+173	298	1756068799584172553	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/lcd_periph.c.obj	aaed073953d4268c
+3	79	1756068799360174009	esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/eri.c.obj	6c50196dc084478e
+36	88	1756068799378173892	CMakeFiles/bootloader.elf.dir/project_elf_src_esp32.c.obj	65b858a5f4727b77
+3780	3848	1756068803148149402	esp-idf/main/libmain.a	df852272b76af8b4
+239	471	1756068799770171344	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/rtc_io_periph.c.obj	ae778305ded49fd1
+4020	4801	1756068804098143234	.bin_timestamp	1a7212b72e1ea1a4
+2021	2116	1756068801415160658	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_crc.c.obj	d65139b48c525623
+23	115	1756068799412173671	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/emac_periph.c.obj	780c79483c9fd24d
+3848	4020	1756068803316148311	bootloader.elf	f186742e01230389
+213	302	1756068799580172579	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/touch_sensor_periph.c.obj	ebd4ce9ca03e047d
+3647	3742	1756068803040150104	esp-idf/soc/libsoc.a	b9d92f45752a4767
+251	439	1756068799730171604	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdio_slave_periph.c.obj	2c1e765a7f900aa6
+2775	2856	1756068802155155851	esp-idf/esp_rom/libesp_rom.a	326f93719cf1a885
+299	616	1756068799912170422	esp-idf/hal/CMakeFiles/__idf_hal.dir/efuse_hal.c.obj	add5e69acdb1af04
+331	866	1756068800163168791	esp-idf/hal/CMakeFiles/__idf_hal.dir/mmu_hal.c.obj	19eb6086df3f27a6
+1083	1198	1756068800483166712	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp32/bootloader_soc.c.obj	3612b7c24feb6a0f
+863	1082	1756068800368167459	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_sha.c.obj	ddaa247b1bf2d570
+0	7080	1756070681432179244	build.ninja	6d94e498b8b4598d
+222	323	1756068799608172397	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/twai_periph.c.obj	3fb48fa9b92d9df0
+313	791	1756068800086169291	esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/efuse_hal.c.obj	f866be48f7432bd9
+866	1096	1756068800392167303	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_init.c.obj	23b7857691301164
+2169	2233	1756068801524159950	esp-idf/log/CMakeFiles/__idf_log.dir/src/noos/util.c.obj	953098db68bd85d9
+851	1211	1756068800510166537	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/flash_partitions.c.obj	78c32fcd5c533f42
+3104	3185	1756068802484153714	esp-idf/efuse/libefuse.a	f92d822cd747768b
+323	970	1756068800263168141	esp-idf/hal/CMakeFiles/__idf_hal.dir/wdt_hal_iram.c.obj	53b26189cb21de5e
+540	1193	1756068800491166660	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/flash_encrypt.c.obj	53f553d81e47dbcb
+1347	2024	1756068801317161294	esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/efuse_controller/keys/without_key_purposes/three_key_blocks/esp_efuse_api_key.c.obj	95fb619bf942d2df
+24	213	1756068799496173125	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/adc_periph.c.obj	4580a705807410bc
+2938	3032	1756068802330154715	esp-idf/esp_hw_support/libesp_hw_support.a	eae82281db741a5
+23	204	1756068799482173216	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/dport_access.c.obj	b2791a1a2e5f9d80
+193	429	1756068799724171643	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdmmc_periph.c.obj	10f933fa68088ed7
+1216	1347	1756068800644165666	esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_fields.c.obj	a655839720fc3806
+725	1430	1756068800728165120	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/flash_qio_mode.c.obj	28cc51002669d98b
+439	862	1756068800161168804	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_clock_init.c.obj	bbe3c89cadd8ec51
+1097	1552	1756068800847164347	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_panic.c.obj	2620fc4c066832fb
+4	131	1756068799425173586	esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/xt_trax.c.obj	36366b7deb7c7859
+13	189	1756068799488173177	esp-idf/soc/CMakeFiles/__idf_soc.dir/dport_access_common.c.obj	2b9c59714fc63730
+471	785	1756068800081169324	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_random.c.obj	f3b0139f53faf0bc
+336	777	1756068800076169356	esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/cache_hal_esp32.c.obj	e9b080b08d4bcb85
+80	222	1756068799487173183	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/pcnt_periph.c.obj	c82396c4a18d64ae
+448	560	1756068799857170779	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_mem.c.obj	ed5f3d41a0827c82
+28	172	1756068799470173294	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/rmt_periph.c.obj	2db7ed48094af5a4
+430	1145	1756068800443166972	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_common_loader.c.obj	b1cdca9bf383a3fc
+354	540	1756068799835170922	esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_wrap.c.obj	ee63c98ad6d6dfb1
+356	485	1756068799781171273	esp-idf/esp_bootloader_format/CMakeFiles/__idf_esp_bootloader_format.dir/esp_bootloader_desc.c.obj	aec49f5851dcf863
+302	448	1756068799745171507	esp-idf/hal/CMakeFiles/__idf_hal.dir/mpu_hal.c.obj	f6856f4c13f3a871
+8	270	1756068799568172657	esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.obj	c0ccd50f23f4f651
+2	35	1756068799331174197	/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/build/bootloader/project_elf_src_esp32.c	73c995af89d61e1d
+560	858	1756068800152168862	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/secure_boot.c.obj	3a8f5671c1e6f338
+617	1069	1756068800362167498	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_random_esp32.c.obj	719a8cb4c5bd2006
+1606	2061	1756068801359161021	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_clk_init.c.obj	3a1a1389d9722bc5
+792	2517	1756068801800158157	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_utility.c.obj	a571985c09f44762
+131	263	1756068799559172715	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/i2s_periph.c.obj	431e5a4fec8aa24
+1742	1949	1756068801244161768	esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/esp_err_to_name.c.obj	297254843622e8af
+1725	1921	1756068801218161937	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/chip_info.c.obj	c3d3afed55798b75
+1560	1725	1756068801023163204	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/cpu_region_protect.c.obj	489b38a972be27ad
+22	296	1756068799559172715	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/uart_periph.c.obj	3177bcceaa2ad7bd
+1525	1648	1756068800947163697	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/esp_cpu_intr.c.obj	e52e101804fe6f7d
+2233	2608	1756068801906157468	esp-idf/log/CMakeFiles/__idf_log.dir/src/buffer/log_buffers.c.obj	352def688ebd7bf4
+2261	2501	1756068801799158163	esp-idf/log/CMakeFiles/__idf_log.dir/src/log.c.obj	faede2bbdc3b6770
+1146	1448	1756068800746165003	esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32/esp_efuse_table.c.obj	f514fc519584b567
+1094	1444	1756068800740165042	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp32/bootloader_esp32.c.obj	a1f3b172ffd515b9
+3298	3367	1756068802663152552	esp-idf/esp_bootloader_format/libesp_bootloader_format.a	cec25b51cd0b5ca0
+225	330	1756068799627172274	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/dac_periph.c.obj	c9117c1e1f23f3fd
+296	665	1756068799951170168	esp-idf/hal/CMakeFiles/__idf_hal.dir/hal_utils.c.obj	f5cae135557acd9
+1444	1601	1756068800894164042	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_memory_utils.c.obj	15ff227c546d35aa
+153	353	1756068799644172163	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/mcpwm_periph.c.obj	6e0805543e609637
+117	239	1756068799528172917	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdm_periph.c.obj	bf49ccea278d7c8f
+367	850	1756068800148168888	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_common.c.obj	214e6cbc39931b53
+786	1093	1756068800381167375	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_console_loader.c.obj	2f83035ae12efe68
+1949	2150	1756068801444160469	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_uart.c.obj	83af8a0391652b0
+4020	4801	1756068804098143234	/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/build/bootloader/.bin_timestamp	1a7212b72e1ea1a4
+204	365	1756068799664172033	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/mpi_periph.c.obj	c2e9658b17d00ea4
+18	136	1756068799415173651	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/interrupts.c.obj	e560b8e7c262e927
+2608	2725	1756068802025156695	esp-idf/log/liblog.a	91cceb56b9db606f
+3577	3646	1756068802946150714	esp-idf/micro-ecc/libmicro-ecc.a	4b67f2904187e46d
+1552	1984	1756068801273161580	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_init.c.obj	8ce3c8eb3b98536c
+2024	2774	1756068802067156422	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_spiflash.c.obj	b7c6b6adee088db4
+485	725	1756068800024169694	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_efuse.c.obj	f240e17288083eef
+136	313	1756068799609172391	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/timer_periph.c.obj	40572d49f50a9e7e
+1071	1231	1756068800525166439	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_console.c.obj	b2df1f64be07ba5b
+1448	2021	1756068801320161275	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/cpu.c.obj	771ca6f434e5c70e
+275	336	1756068799632172241	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/power_supply_periph.c.obj	d16dd9b7c9676ec4
+778	1524	1756068800807164607	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/bootloader_flash_config_esp32.c.obj	f777bce34a7a6269
+3483	3577	1756068802862151260	esp-idf/hal/libhal.a	1132dd26e6d140c2
+1665	2310	1756068801608159404	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_sleep.c.obj	bf8b5e1de0d38ffe
+1431	1617	1756068800914163912	esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/esp_err.c.obj	e44d4db01e0dd702
+1985	2538	1756068801833157942	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_print.c.obj	48633c53a9335151
+3369	3483	1756068802782151779	esp-idf/spi_flash/libspi_flash.a	b76fea09bceb382c
+263	3158	1756068802440154000	esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir/uECC_verify_antifault.c.obj	4e0a1481bddcb766
+2117	2344	1756068801636159222	esp-idf/log/CMakeFiles/__idf_log.dir/src/log_timestamp_common.c.obj	649eb8719099e921
+2857	2938	1756068802238155312	esp-idf/esp_common/libesp_common.a	10a453335d46bc16
+2275	2493	1756068801792158209	esp-idf/log/CMakeFiles/__idf_log.dir/src/log_format_text.c.obj	e489e360e8c18188
+2267	2409	1756068801680158936	esp-idf/log/CMakeFiles/__idf_log.dir/src/util.c.obj	21182209d8947873
+2100	2313	1756068801612159378	esp-idf/log/CMakeFiles/__idf_log.dir/src/noos/log_timestamp.c.obj	fcf0a49abe9b6aa3
+2281	2416	1756068801708158754	esp-idf/log/CMakeFiles/__idf_log.dir/src/log_print.c.obj	9fdcb5dbdb20360c
+1602	2450	1756068801731158605	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_clk.c.obj	f2a24a1ec672401
+2151	2280	1756068801574159625	esp-idf/log/CMakeFiles/__idf_log.dir/src/noos/log_lock.c.obj	3890a5b8c8650005
+3185	3298	1756068802587153046	esp-idf/bootloader_support/libbootloader_support.a	fcafc850eb4beb18
+666	2319	1756068801608159404	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/bootloader_flash.c.obj	5e9d14e1969f1886
+2028	2098	1756068801393160800	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_longjmp.S.obj	ea169ed8ed76ef3b
+2	25	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	ba05af0216b6fd7
+2	25	0	/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	ba05af0216b6fd7
+1617	2261	1756068801560159716	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_time.c.obj	95b303426a1baae3
+1194	1560	1756068800859164269	esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32/esp_efuse_fields.c.obj	97bf72220c909af
+3742	3780	1756068803079149850	esp-idf/xtensa/libxtensa.a	3580b395f490d6fa
+1922	2075	1756068801370160950	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_sys.c.obj	71683b4111415739
+1201	1742	1756068801040163093	esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32/esp_efuse_utility.c.obj	ef02be302e6e10db
+3032	3103	1756068802403154240	esp-idf/esp_system/libesp_system.a	2e6a90fef9189ea2
+1213	2028	1756068801322161262	esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_api.c.obj	63a24fa6cb4df1d7
+1	7012	1756070681432179244	build.ninja	6d94e498b8b4598d
+6	119	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	ba05af0216b6fd7
+6	119	0	/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	ba05af0216b6fd7
+7	32	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	ba05af0216b6fd7
+7	32	0	/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	ba05af0216b6fd7
+2	28	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	ba05af0216b6fd7
+2	28	0	/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	ba05af0216b6fd7
+2	29	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	ba05af0216b6fd7
+2	29	0	/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	ba05af0216b6fd7
+2	27	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	ba05af0216b6fd7
+2	27	0	/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	ba05af0216b6fd7
+1	27	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	ba05af0216b6fd7
+1	27	0	/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	ba05af0216b6fd7
+1	25	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	ba05af0216b6fd7
+1	25	0	/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	ba05af0216b6fd7
+2	24	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	ba05af0216b6fd7
+2	24	0	/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	ba05af0216b6fd7
+1	25	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	ba05af0216b6fd7
+1	25	0	/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	ba05af0216b6fd7

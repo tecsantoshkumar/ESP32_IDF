@@ -1,0 +1,21 @@
+Command: ninja all
+[1/10] Performing build step for 'bootloader'
+[1/1] cd "/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/build/bootloader/esp-idf/esptool_py" && /home/ubuntu12345/.espressif/python_env/idf5.5_py3.10_env/bin/python /home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/ubuntu12345/esp-idf/new-esp32/my\ project/http-server/build/bootloader/bootloader.bin
+Bootloader binary size 0x6680 bytes. 0x980 bytes (8%) free.
+[2/8] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/main/main.c: In function 'app_main':
+/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/main/main.c:140:27: warning: variable 'server' set but not used [-Wunused-but-set-variable]
+  140 |     static httpd_handle_t server = NULL;
+      |                           ^~~~~~
+[3/8] Linking C static library esp-idf/main/libmain.a
+[4/8] Generating esp-idf/esp_system/ld/sections.ld
+[5/8] Building C object CMakeFiles/http-server.elf.dir/project_elf_src_esp32.c.obj
+[6/8] Linking CXX executable http-server.elf
+[7/8] Generating binary image from built executable
+esptool.py v4.10.dev1
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /home/ubuntu12345/esp-idf/new-esp32/my project/http-server/build/http-server.bin
+[8/8] cd "/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/build/esp-idf/esptool_py" && /home/ubuntu12345/.espressif/python_env/idf5.5_py3.10_env/bin/python /home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/ubuntu12345/esp-idf/new-esp32/my\ project/http-server/build/partition_table/partition-table.bin /home/ubuntu12345/esp-idf/new-esp32/my\ project/http-server/build/http-server.bin
+http-server.bin binary size 0x12e340 bytes. Smallest app partition is 0x177000 bytes. 0x48cc0 bytes (19%) free.

@@ -1,0 +1,130 @@
+Command: ninja all
+[1/11] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+FAILED: esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj 
+/home/ubuntu12345/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -DESP_PLATFORM -DIDF_VER=\"v5.5\" -DMBEDTLS_CONFIG_FILE=\"mbedtls/esp_config.h\" -DSOC_MMU_PAGE_SIZE=CONFIG_MMU_PAGE_SIZE -DSOC_XTAL_FREQ_MHZ=CONFIG_XTAL_FREQ -D_GLIBCXX_HAVE_POSIX_SEMAPHORE -D_GLIBCXX_USE_POSIX_SEMAPHORE -D_GNU_SOURCE -D_POSIX_READER_WRITER_LOCKS -I"/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/build/config" -I"/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/main" -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/newlib/platform_include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/freertos/config/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/freertos/config/include/freertos -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/freertos/config/xtensa/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/freertos/FreeRTOS-Kernel/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/freertos/esp_additions/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/esp_hw_support/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/esp_hw_support/include/soc -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/esp_hw_support/include/soc/esp32 -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/esp_hw_support/dma/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/esp_hw_support/ldo/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/esp_hw_support/debug_probe/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/esp_hw_support/mspi_timing_tuning/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/esp_hw_support/mspi_timing_tuning/tuning_scheme_impl/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/esp_hw_support/power_supply/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/esp_hw_support/port/esp32/. -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/esp_hw_support/port/esp32/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/heap/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/heap/tlsf -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/log/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/soc/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/soc/esp32 -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/soc/esp32/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/soc/esp32/register -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/hal/platform_port/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/hal/esp32/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/hal/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/esp_rom/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/esp_rom/esp32/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/esp_rom/esp32/include/esp32 -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/esp_rom/esp32 -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/esp_common/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/esp_system/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/esp_system/port/soc -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/esp_system/port/include/private -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/xtensa/esp32/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/xtensa/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/xtensa/deprecated_include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/lwip/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/lwip/include/apps -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/lwip/include/apps/sntp -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/lwip/lwip/src/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/lwip/port/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/lwip/port/freertos/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/lwip/port/esp32xx/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/lwip/port/esp32xx/include/arch -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/lwip/port/esp32xx/include/sys -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/esp-tls -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/esp-tls/esp-tls-crypto -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/mbedtls/port/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/mbedtls/mbedtls/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/mbedtls/mbedtls/library -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/mbedtls/esp_crt_bundle/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/mbedtls/mbedtls/3rdparty/everest/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/mbedtls/mbedtls/3rdparty/p256-m -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/mbedtls/mbedtls/3rdparty/p256-m/p256-m -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/nvs_flash/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/esp_partition/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/esp_netif/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/esp_event/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/esp_http_server/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/http_parser -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/esp_driver_gpio/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/esp_driver_uart/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/vfs/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/wifi_provisioning/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/protocomm/include/common -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/protocomm/include/security -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/protocomm/include/transports -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/protocomm/include/crypto/srp6a -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/protocomm/proto-c -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/bt/include/esp32/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/bt/common/osi/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/bt/common/api/include/api -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/bt/common/btc/profile/esp/blufi/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/bt/common/btc/profile/esp/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/bt/common/hci_log/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/bt/common/ble_log/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/bt/host/nimble/nimble/nimble/host/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/bt/host/nimble/nimble/nimble/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/ans/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/bas/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/dis/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/gap/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/gatt/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/hr/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/htp/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/ias/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/ipss/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/lls/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/prox/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/cts/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/tps/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/hid/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/sps/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/cte/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/bt/host/nimble/nimble/nimble/host/util/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/bt/host/nimble/nimble/nimble/host/store/ram/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/bt/host/nimble/nimble/nimble/host/store/config/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/bt/host/nimble/nimble/porting/nimble/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/bt/host/nimble/port/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/bt/host/nimble/nimble/nimble/transport/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/bt/porting/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/bt/host/nimble/nimble/porting/npl/freertos/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/bt/host/nimble/esp-hci/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/esp_timer/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/esp_wifi/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/esp_wifi/include/local -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/esp_wifi/wifi_apps/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/esp_wifi/wifi_apps/nan_app/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/esp_phy/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/esp_phy/esp32/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/esp_eth/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/esp_driver_spi/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/esp_pm/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/mqtt/esp-mqtt/include -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/tcp_transport/include -I"/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/managed_components/espressif__qrcode/include" -I/home/ubuntu12345/esp-idf/new-esp32/esp-idf/examples/common_components/protocol_examples_common/include -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=unused-but-set-variable -Wno-error=deprecated-declarations -Wextra -Wno-error=extra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fno-shrink-wrap "-fmacro-prefix-map=/home/ubuntu12345/esp-idf/new-esp32/my project/http-server=." -fmacro-prefix-map=/home/ubuntu12345/esp-idf/new-esp32/esp-idf=/IDF -fstrict-volatile-bitfields -fno-jump-tables -fno-tree-switch-conversion -std=gnu17 -Wno-old-style-declaration -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj -MF esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj.d -o esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj -c '/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/main/main.c'
+/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/main/main.c: In function 'app_main':
+/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/main/main.c:3:12: error: unknown type name 'httpd_handle_t'
+    3 |     static httpd_handle_t server = NULL;
+      |            ^~~~~~~~~~~~~~
+/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/main/main.c:3:36: error: 'NULL' undeclared (first use in this function)
+    3 |     static httpd_handle_t server = NULL;
+      |                                    ^~~~
+/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/main/main.c:1:1: note: 'NULL' is defined in header '<stddef.h>'; this is probably fixable by adding '#include <stddef.h>'
+  +++ |+#include <stddef.h>
+    1 | void app_main(void)
+/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/main/main.c:3:36: note: each undeclared identifier is reported only once for each function it appears in
+    3 |     static httpd_handle_t server = NULL;
+      |                                    ^~~~
+/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/main/main.c:6:5: error: unknown type name 'esp_err_t'
+    6 |     esp_err_t ret = nvs_flash_init();
+      |     ^~~~~~~~~
+/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/main/main.c:6:21: error: implicit declaration of function 'nvs_flash_init' [-Wimplicit-function-declaration]
+    6 |     esp_err_t ret = nvs_flash_init();
+      |                     ^~~~~~~~~~~~~~
+/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/main/main.c:7:16: error: 'ESP_ERR_NVS_NO_FREE_PAGES' undeclared (first use in this function)
+    7 |     if (ret == ESP_ERR_NVS_NO_FREE_PAGES || ret == ESP_ERR_NVS_NEW_VERSION_FOUND) {
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/main/main.c:7:52: error: 'ESP_ERR_NVS_NEW_VERSION_FOUND' undeclared (first use in this function)
+    7 |     if (ret == ESP_ERR_NVS_NO_FREE_PAGES || ret == ESP_ERR_NVS_NEW_VERSION_FOUND) {
+      |                                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/main/main.c:8:9: error: implicit declaration of function 'ESP_ERROR_CHECK' [-Wimplicit-function-declaration]
+    8 |         ESP_ERROR_CHECK(nvs_flash_erase());
+      |         ^~~~~~~~~~~~~~~
+/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/main/main.c:8:25: error: implicit declaration of function 'nvs_flash_erase' [-Wimplicit-function-declaration]
+    8 |         ESP_ERROR_CHECK(nvs_flash_erase());
+      |                         ^~~~~~~~~~~~~~~
+/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/main/main.c:13:21: error: implicit declaration of function 'gpio_set_direction' [-Wimplicit-function-declaration]
+   13 |     ESP_ERROR_CHECK(gpio_set_direction(GPIO_NUM_2, GPIO_MODE_OUTPUT));
+      |                     ^~~~~~~~~~~~~~~~~~
+/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/main/main.c:13:40: error: 'GPIO_NUM_2' undeclared (first use in this function)
+   13 |     ESP_ERROR_CHECK(gpio_set_direction(GPIO_NUM_2, GPIO_MODE_OUTPUT));
+      |                                        ^~~~~~~~~~
+/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/main/main.c:13:52: error: 'GPIO_MODE_OUTPUT' undeclared (first use in this function)
+   13 |     ESP_ERROR_CHECK(gpio_set_direction(GPIO_NUM_2, GPIO_MODE_OUTPUT));
+      |                                                    ^~~~~~~~~~~~~~~~
+/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/main/main.c:16:5: error: implicit declaration of function 'provisioning_init' [-Wimplicit-function-declaration]
+   16 |     provisioning_init();
+      |     ^~~~~~~~~~~~~~~~~
+/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/main/main.c:19:5: error: unknown type name 'EventBits_t'
+   19 |     EventBits_t bits = xEventGroupWaitBits(s_wifi_event_group,
+      |     ^~~~~~~~~~~
+/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/main/main.c:19:24: error: implicit declaration of function 'xEventGroupWaitBits' [-Wimplicit-function-declaration]
+   19 |     EventBits_t bits = xEventGroupWaitBits(s_wifi_event_group,
+      |                        ^~~~~~~~~~~~~~~~~~~
+/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/main/main.c:19:44: error: 's_wifi_event_group' undeclared (first use in this function)
+   19 |     EventBits_t bits = xEventGroupWaitBits(s_wifi_event_group,
+      |                                            ^~~~~~~~~~~~~~~~~~
+/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/main/main.c:20:44: error: 'WIFI_CONNECTED_BIT' undeclared (first use in this function)
+   20 |                                            WIFI_CONNECTED_BIT | WIFI_FAIL_BIT,
+      |                                            ^~~~~~~~~~~~~~~~~~
+/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/main/main.c:20:65: error: 'WIFI_FAIL_BIT' undeclared (first use in this function)
+   20 |                                            WIFI_CONNECTED_BIT | WIFI_FAIL_BIT,
+      |                                                                 ^~~~~~~~~~~~~
+/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/main/main.c:21:44: error: 'pdFALSE' undeclared (first use in this function)
+   21 |                                            pdFALSE, pdFALSE, portMAX_DELAY);
+      |                                            ^~~~~~~
+/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/main/main.c:21:62: error: 'portMAX_DELAY' undeclared (first use in this function)
+   21 |                                            pdFALSE, pdFALSE, portMAX_DELAY);
+      |                                                              ^~~~~~~~~~~~~
+/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/main/main.c:24:9: error: implicit declaration of function 'ESP_LOGI' [-Wimplicit-function-declaration]
+   24 |         ESP_LOGI("APP", "Wi-Fi connected, got IP");
+      |         ^~~~~~~~
+/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/main/main.c:26:9: error: implicit declaration of function 'ESP_LOGE' [-Wimplicit-function-declaration]
+   26 |         ESP_LOGE("APP", "Wi-Fi connection failed");
+      |         ^~~~~~~~
+/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/main/main.c:32:5: error: implicit declaration of function 'wifi_prov_mgr_deinit' [-Wimplicit-function-declaration]
+   32 |     wifi_prov_mgr_deinit();
+      |     ^~~~~~~~~~~~~~~~~~~~
+/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/main/main.c:35:14: error: implicit declaration of function 'start_webserver' [-Wimplicit-function-declaration]
+   35 |     server = start_webserver();
+      |              ^~~~~~~~~~~~~~~
+/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/main/main.c:39:5: error: implicit declaration of function 'mqtt_app_start' [-Wimplicit-function-declaration]
+   39 |     mqtt_app_start();
+      |     ^~~~~~~~~~~~~~
+/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/main/main.c:43:21: error: implicit declaration of function 'nimble_port_init' [-Wimplicit-function-declaration]
+   43 |     ESP_ERROR_CHECK(nimble_port_init());
+      |                     ^~~~~~~~~~~~~~~~
+/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/main/main.c:44:5: error: implicit declaration of function 'ble_svc_gap_device_name_set' [-Wimplicit-function-declaration]
+   44 |     ble_svc_gap_device_name_set("BLE-Server");
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/main/main.c:45:5: error: implicit declaration of function 'ble_svc_gap_init' [-Wimplicit-function-declaration]
+   45 |     ble_svc_gap_init();
+      |     ^~~~~~~~~~~~~~~~
+/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/main/main.c:46:5: error: implicit declaration of function 'ble_svc_gatt_init' [-Wimplicit-function-declaration]
+   46 |     ble_svc_gatt_init();
+      |     ^~~~~~~~~~~~~~~~~
+/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/main/main.c:47:5: error: implicit declaration of function 'ble_gatts_count_cfg' [-Wimplicit-function-declaration]
+   47 |     ble_gatts_count_cfg(gatt_svcs);
+      |     ^~~~~~~~~~~~~~~~~~~
+/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/main/main.c:47:25: error: 'gatt_svcs' undeclared (first use in this function)
+   47 |     ble_gatts_count_cfg(gatt_svcs);
+      |                         ^~~~~~~~~
+/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/main/main.c:48:5: error: implicit declaration of function 'ble_gatts_add_svcs' [-Wimplicit-function-declaration]
+   48 |     ble_gatts_add_svcs(gatt_svcs);
+      |     ^~~~~~~~~~~~~~~~~~
+/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/main/main.c:49:5: error: 'ble_hs_cfg' undeclared (first use in this function)
+   49 |     ble_hs_cfg.sync_cb = ble_app_on_sync;
+      |     ^~~~~~~~~~
+/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/main/main.c:49:26: error: 'ble_app_on_sync' undeclared (first use in this function)
+   49 |     ble_hs_cfg.sync_cb = ble_app_on_sync;
+      |                          ^~~~~~~~~~~~~~~
+/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/main/main.c:53:5: error: implicit declaration of function 'nimble_port_freertos_init' [-Wimplicit-function-declaration]
+   53 |     nimble_port_freertos_init(host_task);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/main/main.c:53:31: error: 'host_task' undeclared (first use in this function)
+   53 |     nimble_port_freertos_init(host_task);
+      |                               ^~~~~~~~~
+/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/main/main.c:57:9: error: implicit declaration of function 'vTaskDelay' [-Wimplicit-function-declaration]
+   57 |         vTaskDelay(pdMS_TO_TICKS(5000));
+      |         ^~~~~~~~~~
+/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/main/main.c:57:20: error: implicit declaration of function 'pdMS_TO_TICKS' [-Wimplicit-function-declaration]
+   57 |         vTaskDelay(pdMS_TO_TICKS(5000));
+      |                    ^~~~~~~~~~~~~
+/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/main/main.c:3:27: warning: variable 'server' set but not used [-Wunused-but-set-variable]
+    3 |     static httpd_handle_t server = NULL;
+      |                           ^~~~~~
+[2/11] Linking C static library esp-idf/driver/libdriver.a
+[3/11] Performing build step for 'bootloader'
+[1/1] cd "/home/ubuntu12345/esp-idf/new-esp32/my project/http-server/build/bootloader/esp-idf/esptool_py" && /home/ubuntu12345/.espressif/python_env/idf5.5_py3.10_env/bin/python /home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/ubuntu12345/esp-idf/new-esp32/my\ project/http-server/build/bootloader/bootloader.bin
+Bootloader binary size 0x6680 bytes. 0x980 bytes (8%) free.
+ninja: build stopped: subcommand failed.

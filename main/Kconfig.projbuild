@@ -1,0 +1,69 @@
+menu "Example Configuration"
+
+    # ── Basic Authentication for HTTP Server
+    config EXAMPLE_BASIC_AUTH
+        bool "Enable Basic Authentication"
+        default n
+        help
+            Basic Authentication is a method for an HTTP user agent (e.g., a web browser)
+            to provide a user name and password when making a request. It is the simplest
+            technique for enforcing access controls to web resources, because it doesn't
+            require cookies, session identifiers, or login pages; it uses standard fields
+            in the HTTP header.
+            Note: Basic Authentication is not encrypted and credentials are sent in plain text.
+
+    config EXAMPLE_BASIC_AUTH_USERNAME
+        string "Basic Authentication User Name"
+        depends on EXAMPLE_BASIC_AUTH
+        default "ESP32"
+        help
+            The username used by the client for basic authentication.
+
+    config EXAMPLE_BASIC_AUTH_PASSWORD
+        string "Basic Authentication Password"
+        depends on EXAMPLE_BASIC_AUTH
+        default "ESP32Webserver"
+        help
+            The password used by the client for basic authentication.
+
+    # ── Server-Sent Events
+    config EXAMPLE_ENABLE_SSE_HANDLER
+        bool "Enable Server-Sent Events (SSE) Handler"
+        default n
+        help
+            Enable this option to use Server-Sent Events (SSE) functionality.
+            This allows the server to push real-time updates to the client over an HTTP connection.
+
+    # ── Optional Features
+    config APP_USE_BLE
+        bool "Enable BLE (NimBLE)"
+        default n
+        help
+            Enable BLE functionality using the NimBLE stack.
+
+    config APP_USE_MQTT
+        bool "Enable MQTT Client"
+        default n
+        help
+            Enable MQTT client functionality to connect and communicate with a broker.
+
+    config APP_USE_HTTP_SERVER
+        bool "Enable HTTP Server"
+        default n
+        help
+            Enable HTTP server functionality on the device.
+
+    # ── MQTT Broker Configuration
+    config BROKER_URL
+        string "MQTT Broker URL"
+        default "mqtt://mqtt.eclipseprojects.io"
+        help
+            URL of the MQTT broker to connect to.
+
+    config BROKER_URL_FROM_STDIN
+        bool "Read Broker URL from stdin"
+        default y if BROKER_URL = "FROM_STDIN"
+        help
+            If enabled, the broker URL will be read from standard input at runtime.
+
+endmenu
