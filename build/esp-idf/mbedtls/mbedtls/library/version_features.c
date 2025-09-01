@@ -1,1 +1,0 @@
-/home/ubuntu12345/esp-idf/new-esp32/esp-idf/components/mbedtls/mbedtls/library/version_features.c
